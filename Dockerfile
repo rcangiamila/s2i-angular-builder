@@ -2,7 +2,7 @@ FROM openshift/base-centos7
 
 # This image provides a S2I builder image for Angular applications running inside Apache htttpd web container.
 
-MAINTAINER Philipp Schürmann <spam@mrgoro.de>
+MAINTAINER Roberto Cangiamila <roberto.cangiamila@par-tec.it>
 
 LABEL summary="Platform for building and running Angular applications" \
       io.k8s.description="OpenShift S2I builder image for Angular apps using Angular CLI and Apache httpd 2.4." \
